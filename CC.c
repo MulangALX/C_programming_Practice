@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 void main(){
 
 	int year_of_birth;
@@ -13,5 +14,11 @@ void main(){
 	age = current_year - year_of_birth;
 
 	printf("%s is currently %d years old\n", name, age);
+	
+	char best_man[28] = "Thomas Nyakundii";
+	printf("%s shall be in my wedding. \nThat is a given because he is just %d years old\n", best_man, age);
 
-}
+	strcpy(best_man, "Mwanzia Mwikali Caroline\n");
+        printf("%s shall be in my wedding. \nThat is a given because she is just %d years old", best_man, age);
+
+};
