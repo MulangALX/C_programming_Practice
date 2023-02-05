@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include </>
+
+
 void main(){
 	int y = 3;
 	int x = 4;
@@ -30,5 +31,20 @@ the e cintinue wtih the thingy todat the 5th of february 2022*/
 	age = 29;
 	printf("%s is %d years old while %s is %d years old \n may they live as long as %s \n","Martin Mulang'",29, "Isaiah Onando", 35, "Ogago Nyalwanda");
 
-	};
 
+
+
+	int year_of_birth;
+	year_of_birth = 1994;
+		
+	int current_year;
+	current_year = 2023;
+
+	char name[23] = "Mulang Oduor Martin";
+
+	int age;
+	age = current_year - year_of_birth;
+
+	printf("%s is currently %d years old\n", name[4:], age);
+
+};
