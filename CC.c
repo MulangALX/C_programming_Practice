@@ -27,9 +27,9 @@ the e cintinue wtih the thingy todat the 5th of february 2022*/
 
         printf("Pi to no decimal places is %f\n\n", 3.14675436);
 
-	int age;
-	age = 29;
-	printf("%s is %d years old while %s is %d years old \n may they live as long as %s \n","Martin Mulang'",29, "Isaiah Onando", 35, "Ogago Nyalwanda");
+	int my_age;
+	my_age = 29;
+	printf("%s is %d years old while %s is %d years old \n may they live as long as %s \n","Martin Mulang'",my_age, "Isaiah Onando", 35, "Ogago Nyalwanda");
 
 
 
@@ -45,6 +45,6 @@ the e cintinue wtih the thingy todat the 5th of february 2022*/
 	int age;
 	age = current_year - year_of_birth;
 
-	printf("%s is currently %d years old\n", name[4:], age);
+	printf("%s is currently %d years old\n", name, age);
 
 };
