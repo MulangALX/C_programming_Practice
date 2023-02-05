@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 
 void main(){
 	int y = 3;
@@ -46,5 +46,12 @@ the e cintinue wtih the thingy todat the 5th of february 2022*/
 	age = current_year - year_of_birth;
 
 	printf("%s is currently %d years old\n", name, age);
+	
+	char best_man[28] = "Thomas Nyakundii";
+	printf("%s shall be in my wedding. \nThat is a given because he is just %d years old\n", best_man, age);
+
+	strcpy(best_man, "Mwanzia Mwikali Caroline\n");
+        printf("%s shall be in my wedding. \nThat is a given because she is just %d years old", best_man, age);
+
 
 };
