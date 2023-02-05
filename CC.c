@@ -1,3 +1,4 @@
+#include "my_Cc_Header_file.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -29,7 +30,7 @@ the e cintinue wtih the thingy todat the 5th of february 2022*/
 
 	int my_age;
 	my_age = 29;
-	printf("%s is %d years old while %s is %d years old \n may they live as long as %s \n","Martin Mulang'",my_age, "Isaiah Onando", 35, "Ogago Nyalwanda");
+	printf("%s is %d years old while %s is %d years old \n may they live as long as %s \n","Martin Mulang'",my_age, "Isaiah Onando", 35, "Ogago Nyalwanda\n");
 
 
 
@@ -51,7 +52,25 @@ the e cintinue wtih the thingy todat the 5th of february 2022*/
 	printf("%s shall be in my wedding. \nThat is a given because he is just %d years old\n", best_man, age);
 
 	strcpy(best_man, "Mwanzia Mwikali Caroline\n");
-        printf("%s shall be in my wedding. \nThat is a given because she is just %d years old", best_man, age);
+        printf("%s shall be in my wedding. \nThat is a given because she is just %d years old\n", best_man, age);
+	
+	int datable_age = YEARS_ACTIVE - my_age;
+	printf("I can date %s because I am %d within the datable age. \n This is because she is been active for %d years.\n\n\n", NAME, datable_age, YEARS_ACTIVE);
 
 
+
+	char your_Name[20];
+	char your_GF_Name[20];
+	int number_of_Babies;
+	
+	printf("What is your Name sir?\n");
+	scanf("%s", your_Name);
+
+	printf("What is your Girlfriend's Name?\n");
+        scanf("%s", your_GF_Name);
+	
+	printf("What is the number of children you wish to have? \n");
+	scanf("%d", &number_of_Babies);
+	
+	printf("%s you are most likely to marry %s if you  are strongly in love. \n If you hit it right, you the your wish of having %d shall be granted. \n MAY THE FOROORCE BE WITH YOU", your_Name, your_GF_Name, number_of_Babies);
 };
